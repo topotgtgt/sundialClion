@@ -1,0 +1,35 @@
+/home/botao/clion-2023.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/botao/clion-2023.2/bin/ninja/linux/x64/ninja -G Ninja -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER_LAUNCHER=ccache -DOFFICE=Suzhou -DCMAKE_TOOLCHAIN_FILE=/home/botao/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake -S /home/botao/sundialsClions -B /home/botao/sundialsClions/cmake-build-debug
+Office Suzhou
+Remote Caching enabled. Address: http://192.168.1.201
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-linux...
+Detecting compiler hash for triplet x64-linux-mixed...
+All requested packages are currently installed.
+Total install time: 256 ns
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+libyaml provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(yaml CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE yaml)
+
+yaml-cpp provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(yaml-cpp CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE yaml-cpp)
+
+-- Running vcpkg install - done
+MARCH is not set. Using default value
+MARCH setting for compilation:  x86-64
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/botao/sundialsClions/cmake-build-debug

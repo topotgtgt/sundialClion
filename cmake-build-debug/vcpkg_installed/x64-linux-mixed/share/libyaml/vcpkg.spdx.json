@@ -1,0 +1,154 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libyaml-x64-linux-mixed-0.2.5#4-97e2f9c0-adad-441e-8fab-38bb18a827cd",
+  "name": "libyaml:x64-linux-mixed@0.2.5#4 88b7ec4725f232982b516ea364dd920cfa3731235d493d0283140d622199cb2d",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-9990a4c9026811a312cb2af78bf77f3d9d288416"
+    ],
+    "created": "2024-11-22T08:55:28Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libyaml",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.2.5#4",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@ae6fcd42cb9d1448913be2c7eb536df813601230",
+      "homepage": "https://github.com/yaml/libyaml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "A C library for parsing and emitting YAML.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "libyaml:x64-linux-mixed",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "88b7ec4725f232982b516ea364dd920cfa3731235d493d0283140d622199cb2d",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "yaml/libyaml",
+      "downloadLocation": "git+https://github.com/yaml/libyaml@2c891fc7a770e8ba2fec34fc6b545c672beb37e6",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "7cdde7b48c937777b851747f7e0b9a74cb7da30173e09305dad931ef83c3fcee3e125e721166690fe6a0987ba897564500530e5518e4b66b1c9b1db8900bf320"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/botao/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/libyaml/ae6fcd42cb9d1448913be2c7eb536df813601230/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa4d5c65f8b764f169721492ad69420fe92cf30fb81b62baf502326a8d1b147d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/botao/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/libyaml/ae6fcd42cb9d1448913be2c7eb536df813601230/export-pkgconfig.patch",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3fa3cb69c9fa517772b336fabe6fef3bf1bd9b0d89823c7e9d4b5243c371d2c3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/botao/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/libyaml/ae6fcd42cb9d1448913be2c7eb536df813601230/fix-POSIX_name.patch",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c28d3326ae230468ce42a196b507b2542c620437d7a7aacd4fbd002034c789d7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/botao/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/libyaml/ae6fcd42cb9d1448913be2c7eb536df813601230/vcpkg.json",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c884053690733d36e272231fee670545a837b237d32982bcf93cef1f4e0b811"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

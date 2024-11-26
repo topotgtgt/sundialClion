@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: LibYAML
+Description: Library to parse and emit YAML
+Version: 0.1
+
+Libs: "-L${libdir}" -lyaml
+Cflags: "-I${includedir}"

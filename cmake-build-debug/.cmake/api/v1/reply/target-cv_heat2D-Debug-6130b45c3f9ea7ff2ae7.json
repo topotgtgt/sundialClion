@@ -1,0 +1,687 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "cv_heat2D"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/botao/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -march=x86-64 -g -DJSON_DIAGNOSTICS=1 -std=gnu++17 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/arkode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/cvode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/cvodes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/ida"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/idas"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/kinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/nvector"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunadaptcontroller"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sundials"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunlinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunmatrix"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunmemory"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunnonlinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/arkode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/cvode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/cvodes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/ida"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/idas"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/kinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/nvector"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunadaptcontroller"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sundials"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunlinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunmatrix"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunmemory"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunnonlinsol"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -march=x86-64 -g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/arkode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/cvode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/cvodes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/ida"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/idas"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/kinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/nvector"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunadaptcontroller"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sundials"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunlinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunmatrix"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunmemory"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/include/sunnonlinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/arkode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/cvode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/cvodes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/ida"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/idas"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/kinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/nvector"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunadaptcontroller"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sundials"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunlinsol"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunmatrix"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunmemory"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/botao/sundialsClions/src/sunnonlinsol"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			]
+		}
+	],
+	"id" : "cv_heat2D::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-march=x86-64 -g -DJSON_DIAGNOSTICS=1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopenblas.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cv_heat2D",
+	"nameOnDisk" : "cv_heat2D",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "application/cv_heat2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_bandpre.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_bbdpre.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_diag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_direct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_fused_stubs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_ls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_nls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_proj.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/cvode/cvode_spils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/nvector/serial/fnvector_serial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/nvector/serial/nvector_serial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_band.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_dense.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_direct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_futils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_iterative.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_linearsolver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_matrix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_nonlinearsolver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_nvector.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_nvector_senswrapper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sundials/sundials_version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/band/sunlinsol_band.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/dense/sunlinsol_dense.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/lapackband/sunlinsol_lapackband.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/lapackdense/sunlinsol_lapackdense.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/pcg/sunlinsol_pcg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/spbcgs/sunlinsol_spbcgs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/spgmr/sunlinsol_spgmr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/spfgmr/sunlinsol_spfgmr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunmatrix/band/sunmatrix_band.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunmatrix/dense/sunmatrix_dense.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunmatrix/sparse/sunmatrix_sparse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunnonlinsol/fixedpoint/sunnonlinsol_fixedpoint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/sunnonlinsol/newton/sunnonlinsol_newton.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

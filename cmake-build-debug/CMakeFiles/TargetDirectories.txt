@@ -1,0 +1,3 @@
+/home/botao/sundialsClions/cmake-build-debug/CMakeFiles/cv_heat2D.dir
+/home/botao/sundialsClions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/botao/sundialsClions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

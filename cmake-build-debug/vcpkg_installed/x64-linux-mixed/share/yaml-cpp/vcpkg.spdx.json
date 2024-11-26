@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/yaml-cpp-x64-linux-mixed-0.7.0#1-68535b53-6633-4b41-8b35-b1bde05066c7",
+  "name": "yaml-cpp:x64-linux-mixed@0.7.0#1 3710905eb2d9e829dc488ce3869a1e612d4ed63dc38e9c3afe3a9715bb90f6f4",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-9990a4c9026811a312cb2af78bf77f3d9d288416"
+    ],
+    "created": "2024-11-22T08:55:31Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "yaml-cpp",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.7.0#1",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@a79d9c026aefee69214dbd39294da49398b07c7b",
+      "homepage": "https://github.com/jbeder/yaml-cpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "yaml-cpp is a YAML parser and emitter in C++ matching the YAML 1.2 spec.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "yaml-cpp:x64-linux-mixed",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "3710905eb2d9e829dc488ce3869a1e612d4ed63dc38e9c3afe3a9715bb90f6f4",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "jbeder/yaml-cpp",
+      "downloadLocation": "git+https://github.com/jbeder/yaml-cpp@0579ae3d976091d7d664aa9d2527e0d0cff25763",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "930f13737c23faf06be3fa9821492d6c677359e532212ced495173367a8aec45f87fbf3a5da47d4d1b61a95c25e0101bc7f8d175752434c63b25e097186e1745"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/botao/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/yaml-cpp/a79d9c026aefee69214dbd39294da49398b07c7b/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de18b4edd5301f324054f55dddbbaf517c38913030736846ccda524cae815b9f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/botao/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/yaml-cpp/a79d9c026aefee69214dbd39294da49398b07c7b/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dccd33f74bfdaaa64471d97236b103a2672a156e1a5b5a7a3a3eed6de69e07bf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
